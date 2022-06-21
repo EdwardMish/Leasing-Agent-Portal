@@ -1,0 +1,11 @@
+.Header {
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 5px solid #FF9E18;
+}
+
+.Header > svg {
+    height: 2rem;
+    width: auto;
+    fill: #0071ce;
+}

@@ -1,0 +1,16 @@
+.Divider {
+    background-color: #a5a5a5;
+    height: 1px;
+    border: none;
+    margin: 0 0 1rem 0;
+}
+
+.ExtraMargin {
+    margin-bottom: 2rem;
+}
+
+.EqualMargin {
+    margin: 1rem 0;
+    background-color: #f1f1f1;
+}
+

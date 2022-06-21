@@ -1,0 +1,53 @@
+﻿.ConversationUsersPanel {
+    padding: 1rem;
+    height: calc(100% - 3rem);
+}
+
+.ConversationUsersPanel h2 {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+}
+
+.UsersList {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    height: calc(100% - 5.5rem);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.UsersList::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.User {
+    display: block;
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+    color: rgb(70, 81, 100);
+    cursor: pointer;
+    border-bottom: 1px solid rgb(235,235,235);
+    transition: all ease 0.25s;
+}
+
+.User:first-of-type {
+    border-top: 1px solid rgb(235,235,235);
+}
+
+.User:hover {
+    padding-left: 0.5rem;
+    transition: all ease 0.25s;
+}
+
+.UserName {
+    font-weight: 700;
+}
+
+.UserEmail {
+    margin: 0.25rem 0 0.1rem;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+}

@@ -1,0 +1,131 @@
+@import '../../../Shared/Styles/colors.css';
+
+.InspectionsWrapper {
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 7rem;
+}
+
+    .InspectionsWrapper .Link {
+        cursor: pointer;
+        color: var(--color-BrandBlue);
+    }
+
+.NavBar {
+    width: 32rem;
+    max-width: calc(100% - 1rem);
+    padding: 1rem 0;
+    box-shadow: 0px 4px 8px rgb(70 81 100 / 30%);
+    border-radius: 4px;
+    background-color: white;
+}
+
+    .NavBar a {
+        max-width: 20%;
+        display: block;
+        padding: 0rem 1.5rem;
+        border-right: 1px solid var(--color-LightGrey);
+    }
+
+        .NavBar a:last-of-type {
+            border: none;
+        }
+
+    .NavBar p {
+        margin: 0.35rem 0 0;
+        font-weight: 700;
+        color: var(--color-BrandBlue);
+        font-size: .7rem;
+    }
+
+.InspectionsPropertyList {
+    margin: 1rem 0 0;
+}
+
+.PropertiesFilter {
+    padding: 0 0.5rem 1rem 0.5rem;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.InspectionsPropertyLink {
+    font-size: 1.1rem;
+    line-height: 1;
+    border: 1px solid var(--color-LightGrey);
+    border-radius: 4px;
+    padding: 1rem;
+    margin: .5rem;
+    transition: all .15s ease;
+}
+
+    .InspectionsPropertyLink a {
+        text-decoration: none;
+        margin: 1rem 0;
+    }
+
+    .InspectionsPropertyLink:hover {
+        margin-left: 1rem;
+        transition: all .15s ease;
+    }
+
+    .InspectionsPropertyLink a,
+    .InspectionsPropertyLink p {
+        color: var(--color-BrandBlue);
+    }
+
+.InspectionItem {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-LightGrey);
+    border-radius: 4px;
+    position: relative;
+}
+
+    .InspectionItem .InspectionItemCategory {
+        font-size: .75rem;
+        font-style: italic;
+    }
+
+    .InspectionItem .Featured::before {
+        content: '';
+        width: 0;
+        height: 0;
+        bottom: 0;
+        right: 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent var(--color-LightGrey) var(--color-LightGrey) transparent;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .InspectionItem .Featured svg {
+        position: absolute;
+        right: .05rem;
+        bottom: .20rem;
+    }
+
+.InspectionSummaryList ul {
+    padding-left: 1rem;
+}
+
+.InspectionSummaryList li {
+    margin-top: 1rem;
+}
+
+.InteractionItem {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-LightGrey);
+    border-radius: 4px;
+    color: var(--color-DarkGrey);
+}
+
+    .InteractionItem .DetailsIcons {
+        margin-left: 3rem;
+        margin-top: .75rem;
+        color: var(--color-DarkGrey);
+        font-size: .75rem;
+        line-height: .75rem;
+    }

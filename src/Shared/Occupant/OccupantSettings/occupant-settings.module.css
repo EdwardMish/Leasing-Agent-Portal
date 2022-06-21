@@ -1,0 +1,15 @@
+﻿.OccupantSettings {
+    width: 100%;
+}
+
+.Button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.Button:focus {
+    border: none;
+    outline: none;
+}
+

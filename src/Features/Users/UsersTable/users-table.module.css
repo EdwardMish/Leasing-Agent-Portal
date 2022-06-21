@@ -1,0 +1,41 @@
+﻿.UsersTable {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(200, 200, 200);
+}
+
+.UsersTable a {
+    color: #0071ce;
+    text-decoration: none;
+}
+
+.UsersTableRow {
+    min-height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.UsersTableRow p {
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 2.5rem;
+}
+
+.DisabledUser {
+    text-decoration: line-through;
+}
+
+.UserEmail {
+    width: 60%;
+}
+
+.UserFirstName {
+    width: 20%;
+}
+
+.UserLastName {
+    width: 20%;
+}
+

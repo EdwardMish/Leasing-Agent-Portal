@@ -1,0 +1,24 @@
+﻿.Pie {
+    margin: 1rem;
+}
+
+    .Pie text {
+        overflow-wrap: break-word;
+        overflow: visible;
+    }
+
+    .Pie .recharts-surface {
+        overflow: visible;
+    }
+
+    .Pie svg {
+        overflow: visible;
+    }
+
+ .OccupantAccounts {
+    float: left;
+}
+
+.AccountsAccessed {
+    float: right;
+}

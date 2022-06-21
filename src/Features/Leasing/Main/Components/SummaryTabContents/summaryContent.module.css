@@ -1,0 +1,55 @@
+.OverviewBorder {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0 0.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+}
+.PageWrapper {
+    max-width: 45rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.PageStyles {
+    font-family: 'Lato', sans-serif;
+}
+
+.flexWrapper {
+    width: 100%;
+}
+
+.halfSection {
+    display: flex;
+}
+
+.SubHeaderKeyValue {
+    padding: 1rem 0;
+    width: 12rem;
+}
+
+.AnswerContainer{
+    padding: 1rem 0 0;
+}
+
+.uploadClick {
+    color: #0071ce;
+    cursor: pointer;
+}
+
+.QuestionWrapper {
+    width: 90%;
+}
+
+.LongText {
+    width: 90%;
+}
+
+@media screen and (max-width: 500px) {
+    .SubHeaderKeyValue {
+        padding: 1rem 0 0 0;
+    }
+}

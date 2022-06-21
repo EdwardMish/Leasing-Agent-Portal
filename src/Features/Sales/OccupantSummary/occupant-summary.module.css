@@ -1,0 +1,44 @@
+﻿.OccupantName {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    line-height: 1;
+}
+
+h1.OccupantName {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0 0 0.75rem;
+}
+
+.OccupantNameTombstone {
+    height: 1.65rem;
+    margin: 1rem 0 0.5rem;
+    width: 12rem;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.25rem;
+}
+
+.PropertyName {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 0.75rem;
+    color: rgb(140, 140, 140);
+}
+
+.PropertyNameTombstone {
+    height: 1.1rem;
+    width: 8rem;
+    margin: 0 0 1rem;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.25rem;
+}
+
+*.NoMarginTop {
+    margin-top: 0;
+}
+
+*.NoMarginBottom {
+    margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+﻿.ToDoListRowSpinner {
+    width: 100%;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.ToDoListRowSpinner svg {
+    stroke: #0071ce;
+}

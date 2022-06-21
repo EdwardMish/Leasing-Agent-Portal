@@ -1,0 +1,11 @@
+.AccountOverviewRow {
+    width: 11rem;
+    margin: 0 0 1rem 0;
+}
+
+@media screen and (max-width: 500px) {
+    .AccountOverviewRow {
+        width: 8rem;
+        
+    }
+}

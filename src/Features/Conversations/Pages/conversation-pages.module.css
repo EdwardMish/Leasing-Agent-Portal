@@ -1,0 +1,25 @@
+﻿.ConversationDetailPage {
+    height: calc(100vh - 9rem);
+}
+
+.ConversationDetailPageHeader {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+.ConversationDetailPageHeader > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: #0071ce;
+}
+
+
+.ConversationDetailPageHeader p {
+    margin: 0 0 0 0.4rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: #0071ce;
+}

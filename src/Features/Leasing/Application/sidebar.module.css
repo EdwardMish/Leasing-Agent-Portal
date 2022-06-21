@@ -1,0 +1,23 @@
+.SidebarRow {
+    width: 10.5rem;
+    margin: 0 0 0.5rem 0;
+}
+.FullWidth {
+    width: auto;
+}
+
+.OverviewSidebar {
+    margin: 0.5rem 0;
+    word-wrap: break-word;
+}
+
+.UploadTotalWrapper {
+    text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+    .SidebarRow {
+        width: 8rem;
+    }
+}
+

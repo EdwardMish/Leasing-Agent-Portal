@@ -1,0 +1,48 @@
+.DisclaimerMargin {
+    margin: 0.5rem 0 0 0;
+}
+
+.DropdownHeight {
+    height: 4.25rem;
+}
+
+.MockTextArea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 4.75rem;
+    margin: 0rem 0 0 0;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: rgb(240, 240, 240);
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875rem;
+}
+
+.checkbox {
+    padding: 0.25rem 0 0 0.5rem;
+}
+
+.questions {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+.documents {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+label {
+    padding-left: 0.25rem;
+}
+
+@media screen and (max-width: 650px) {
+    .MockTextArea {
+        margin: 0;
+    }
+}
+

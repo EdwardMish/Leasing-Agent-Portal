@@ -1,0 +1,33 @@
+﻿.RequestHistory {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.RequestHistory li {
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 0 0.5rem;
+}
+
+.RequestHistoryHeader {
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.RequestHistoryHeader p {
+    font-size: 0.875rem;
+}
+
+.RequestHistoryHeader > p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+.RequestHistoryContent {
+    padding: 1rem 0.75rem;
+}

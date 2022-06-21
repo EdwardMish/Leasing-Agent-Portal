@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [ "es5", "es6", "es7", "es2017", "dom", "webworker" ],
+    "declaration": false,
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": [ "src" ],
+    "baseUrl": "src",
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [ "src/Workers/ServiceWorker.ts" ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "wwwroot"
+  ]
+}

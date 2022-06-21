@@ -1,0 +1,36 @@
+﻿.FormRow,
+.TwoColumnFormRow {
+    width: 100%;
+}
+
+.TwoColumnFormRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FormRow > div,
+.FormRow > input {
+    width: 100% !important;
+    margin: 0 0 0.75rem;
+}
+
+.TwoColumnFormRow > div,
+.TwoColumnFormRow > input {
+    width: calc(50% - 0.5rem) !important;
+}
+
+.TwoColumnFormRow select {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 700px) {
+    .TwoColumnFormRow {
+        flex-direction: column;
+    }
+
+    .TwoColumnFormRow > div,
+    .TwoColumnFormRow > input {
+        width: 100% !important;
+        margin: 0 0 0.75rem;
+    }
+}

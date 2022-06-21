@@ -1,0 +1,49 @@
+.Details {
+    width: 100%;
+}
+
+    .Details h1 {
+        display: block;
+        max-width: 38rem;
+    }
+
+.SubjectAndActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.Actions {
+    display: flex;
+}
+
+    .Actions button {
+        margin: 0 1rem 0 1rem;
+        width: 5rem;
+    }
+
+.PublishDate {
+    margin-top: .5rem;
+    font-size: .875rem;
+}
+
+.Question {
+    margin: 1rem 0 1rem 0;
+}
+
+.Body {
+    margin: 1rem 0 1rem 0;
+}
+
+.TwoColumn {
+    width: 100%;
+}
+
+    .TwoColumn input {
+        margin-bottom: .75rem;
+    }
+
+    .TwoColumn > div {
+        width: calc(50% - 0.5rem);
+    }

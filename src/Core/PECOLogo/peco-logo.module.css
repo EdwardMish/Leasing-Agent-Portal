@@ -1,0 +1,57 @@
+﻿.PECOLocoMain {
+    fill: #0071ce;
+}
+
+.PECOLocoSecondary {
+    fill: #323e48;
+}
+
+.PECOLogoStacked {
+    fill: #0071ce;
+}
+
+.LogoWrapper {
+    margin: 0 1rem;
+}
+
+.LogoWrapper > svg:hover {
+    fill: #ff9e18;
+    cursor: pointer;
+}
+
+.SocialIconsWrapper {
+    margin: 0.5rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SocialIconsWrapper a {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    background-color: #0071ce;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialIconsWrapper a:hover {
+    background-color: #ff9e18;
+}
+
+.SocialIconsWrapper a svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.SocialIconsWrapper a.IconFill svg {
+    fill: white;
+    stroke: none;
+}
+
+.SocialIconsWrapper a.IconStroke svg {
+    fill: none;
+    stroke: white;
+}

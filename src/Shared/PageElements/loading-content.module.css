@@ -1,0 +1,15 @@
+﻿.LoadingContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(245, 245, 245);
+    border-radius: 0.25rem;
+}
+
+.LoadingContent p {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 0;
+}

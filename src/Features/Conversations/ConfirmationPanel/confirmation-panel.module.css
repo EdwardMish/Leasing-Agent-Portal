@@ -1,0 +1,26 @@
+﻿.ConfirmationPanel {
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(245, 245, 245);
+    border-radius: 0.25rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.ConfirmationPanel h3 {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+
+.ConfirmationPanel b {
+    font-weight: 700;
+}
+
+.ConfirmationPanel p {
+    margin: 0 0 1rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+.ConfirmationPanel p:last-of-type {
+    margin-bottom: 1.5rem;
+}

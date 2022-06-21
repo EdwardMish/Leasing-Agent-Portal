@@ -1,0 +1,89 @@
+﻿.DashboardPage {
+    background: white;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.BannerImageWrapper {
+    position: relative;
+}
+
+.BannerImage {
+    position: relative;
+    object-fit: cover;
+    object-position: 60% 50%;
+    width: 100%;
+    height: 25rem;
+}
+
+.TopBlock {
+    position: absolute;
+    top: 0;
+    left: calc(1rem + 2vw);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TopBlock h2 {
+    position: relative;
+    font-size: 1.5rem;
+    color: var(--color-White);
+    margin: 0;
+    max-width: 20rem;
+    font-weight: 700;
+}
+
+.DashboardPage h1 {
+    color: var(--color-White);
+    font-family: 'Roboto Slab';
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0.5rem;
+    padding: 0;
+}
+
+@media screen and (min-width: 3101px) {
+    .BannerImage {
+        height: calc(50rem + 6vw);
+    }
+}
+
+@media screen and (max-width: 3100px) {
+    .BannerImage {
+        height: calc(45rem + 3vw);
+    }
+}
+
+@media screen and (max-width: 2200px) {
+    .BannerImage {
+        height: calc(40rem + 3vw);
+    }
+}
+
+@media screen and (max-width: 1950px) {
+    .BannerImage {
+        height: calc(30rem + 3vw);
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .BannerImage {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .BannerImage {
+        height: 17rem;
+    }
+
+    .TopBlock h2 {
+        font-size: 1rem;
+    }
+
+    .DashboardPage h1 {
+        font-size: 1.5rem;
+    }
+}

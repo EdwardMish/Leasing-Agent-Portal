@@ -1,0 +1,91 @@
+﻿.InputElement {
+  padding: 0.75rem 0.5rem;
+  background: rgb(245, 245, 245);
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  border-bottom: 2px solid rgb(205, 205, 205);
+}
+
+.InputElement:active,
+.InputElement:focus {
+  border: 2px solid #0071ce;
+  border-radius: 4px;
+}
+
+.SelectElement,
+.HorizontalSelectElement {
+  padding: 0.75rem 0.5rem;
+  background: rgb(245, 245, 245);
+  font-size: 0.875rem;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 4px;
+}
+
+.HorizontalSelectElement {
+  padding: 0.5rem;
+}
+
+.FormRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+/* New styles */
+.Label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: rgb(50, 50, 50);
+}
+
+.CheckBox {
+  display: flex;
+  align-items: center;
+}
+
+.CheckBox input {
+  margin: 0;
+  position: relative;
+}
+
+.CheckBox span {
+  margin: 0 0 0 0.5rem;
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.TextArea {
+  width: 100%;
+  margin: 0.5rem 0 0 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.Error {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+  color: hsl(0, 80%, 22%);
+  border-color: hsl(0, 80%, 22%);
+  background-color: hsl(0, 80%, 92%);
+}
+
+.Error p,
+.Error span,
+.Error svg {
+  color: hsl(0, 80%, 22%);
+}
+
+/* a11y and browser rendering overrides: Safari - autozoom */
+@media screen and (max-width: 550px) {
+  .InputElement {
+    font-size: 16px;
+  }
+}

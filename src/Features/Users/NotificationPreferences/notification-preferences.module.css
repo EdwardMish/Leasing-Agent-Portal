@@ -1,0 +1,29 @@
+﻿.NotificationPreferences {
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 0.25rem;
+}
+
+.NotificationPreferences legend {
+    font-size: 0.875rem;
+    margin: 0;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.CheckBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.35rem;
+}
+
+.CheckBox label {
+    margin: 0 0 0 0.5rem;
+    position: relative;
+    font-size: 0.875rem;
+}
+
+.CheckBox input {
+    margin: 0;
+    position: relative;
+}

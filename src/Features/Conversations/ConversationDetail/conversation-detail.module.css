@@ -1,0 +1,182 @@
+﻿.Conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.ConversationTitleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.ConversationTitleBar p {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.ConversationTitleBar > div {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ConversationTitleBar > div > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: #0071ce;
+}
+
+.ConversationContent {
+    height: calc(100% - 3rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.DisclaimerBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 2rem);
+    margin: 0.75rem 1rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 2rem;
+    /* Warning Color */
+    border-color: hsl(43,100%,48%);
+    background-color: hsl(43,100%,98%);
+    color: hsl(43, 100%, 21%);
+}
+
+.MessageInput {
+    height: 5rem;
+    width: 100%;
+    padding: 0 1rem;
+    border-top: 1px solid rgb(235,235,235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MessageInput input {
+    border: 1px solid rgb(220,220,220);
+    border-radius: 0.5rem;
+    line-height: 1.5rem;
+    width: calc(100% - 2.5rem);
+    background: rgb(250, 250, 250);
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.SendMessage {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MessageInput svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: #0071ce;
+}
+
+.LoadingWrapper {
+    margin: 1rem;
+}
+/*
+    Duplicate styles from Tenant Sales
+*/
+.SelectAnother {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    font-style: normal;
+    line-height: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    background-color: #0071ce;
+}
+
+.SelectAnother p {
+    margin: 0;
+}
+
+.SelectAnother svg {
+    margin-right: 0.5rem;
+    stroke: white;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/*
+    Shared Event Styles
+*/
+.SystemItem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.SystemItem::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(240, 240, 240);
+    z-index: 0;
+}
+
+.SystemItem svg {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 0.5rem;
+    fill: rgb(215,215,215);
+    stroke: none;
+}
+
+.SystemItem p {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0 1rem;
+    background-color: white;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    z-index: 1;
+}
+
+.SystemItem p span {
+    font-weight: 700;
+}
+
+/*
+    Events
+*/
+.ParticipantJoinedConversation {
+    text-align: center;
+}

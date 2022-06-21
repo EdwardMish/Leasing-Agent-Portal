@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TextInput renders 1`] = `
+<DocumentFragment>
+  <label
+    for="text-input-test"
+  >
+    text-input-labe 
+  </label>
+  <input
+    class="undefined undefined"
+    id="text-input-test"
+    name="text-input-test"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;

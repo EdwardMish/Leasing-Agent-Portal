@@ -1,0 +1,13 @@
+.ComplianceColumns > div {
+    width: calc(50% - 0.5rem);
+}
+
+@media screen and (max-width: 750px) {
+    .ComplianceColumns {
+        flex-direction: column !important;
+    }
+
+        .ComplianceColumns > div {
+            width: 100%;
+        }
+}

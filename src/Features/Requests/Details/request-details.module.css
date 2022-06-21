@@ -1,0 +1,85 @@
+﻿.RequestDetails h1 {
+    margin: 0 0 0.5rem;
+    line-height: 1.1;
+}
+
+.LocationSummary {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(120,120,120);
+}
+
+.AdminLocationSummary {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0071CE;
+}
+
+.RequestSummary {
+    margin: 0 0 1rem;
+    padding: 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(200, 200, 200);
+}
+
+.RequestSummaryLeftPanel,
+.RequestSummaryRightPanel {
+    width: calc(50% - 1rem);
+}
+
+.TenantSummaryRightPanel {
+    width: 17rem;
+}
+
+.Row {
+    margin: 0 0 0.5rem;
+}
+
+.TextRow {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    height: 2rem;
+}
+
+.TextRow > p {
+    margin: 0;
+}
+
+.TextRow > p:first-of-type {
+    font-weight: 700;
+    width: 7rem;
+}
+
+.RequestDescription {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+.AddUpdateForm {
+    padding: 1rem;
+}
+
+.AddUpdateForm textarea {
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .RequestSummary {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .RequestSummaryLeftPanel,
+    .RequestSummaryRightPanel {
+        width: 100%;
+    }
+
+    .RequestSummaryLeftPanel {
+        margin: 0 0 1rem;
+    }
+}

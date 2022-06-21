@@ -1,0 +1,27 @@
+﻿.PriorityList a {
+    display: block;
+    padding: .75rem 1rem;
+    background-color: rgba(0, 0, 0, .03);
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    margin: 0 0 1rem;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    color: #0071ce;
+    text-decoration: none;
+}
+
+.PriorityList > a:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.PriorityList a p {
+    margin: 0 0 0.15rem;
+    font-size: 0.875rem;
+}
+
+.PriorityList a p.PriorityListItemOccupant {
+    font-weight: 700;
+    font-size: 1rem;
+}

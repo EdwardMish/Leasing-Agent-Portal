@@ -1,0 +1,47 @@
+﻿.TableRow {
+    composes: Row from '../table.module.css';
+}
+
+.TableRowTextWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.TableRowText {
+    composes: RowText from '../table.module.css';
+}
+
+.TableRowPrepend {
+    display: none;
+}
+
+@media screen and (min-width: 525px) {
+    .TableRow > * {
+        margin-right: 1.5rem;
+    }
+
+        .TableRow > *:last-child {
+            margin-right: 0;
+        }
+}
+
+@media screen and (max-width: 525px) {
+    .TableRow {
+        flex-direction: column;
+    }
+
+        .TableRow:first-of-type {
+            border-top: 1px solid rgb(240, 240, 240);
+        }
+
+    .TableRowTextWrapper {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .TableRowPrepend {
+        display: block;
+        width: 6rem;
+        font-weight: 700;
+    }
+}

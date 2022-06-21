@@ -1,0 +1,47 @@
+﻿.WatcherRow {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(205, 205, 205);
+    background: rgb(245, 245, 245);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.WatcherRow:hover {
+    margin-left: 0.5rem;
+    transition: all 0.15s ease;
+}
+
+.WatchingIcon {
+    width: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WatchingIcon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: currentColor;
+}
+
+.WatcherInfo {
+    width: calc(100% - 2.75rem);
+}
+
+.WatcherInfo p {
+    font-size: 0.8rem;
+    color: rgb(70, 81, 100)
+}
+
+.WatcherInfo p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+.WatcherInfo p:nth-of-type(2) {
+    margin: 0.2rem 0 0;
+}

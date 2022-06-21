@@ -1,0 +1,72 @@
+﻿.TypeSelect {
+    position: relative;
+    margin: 0 0 1rem;
+    cursor: pointer;
+}
+
+.TypeSelectCurrent {
+    margin: 0;
+    padding: 0 0 0.5rem;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.TypeSelectSubText {
+    margin: 0 0 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(150, 150, 150);
+    display: block;
+}
+
+.TypeSelectList {
+    display: block;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: -1px;
+}
+
+.TypeSelectList p {
+    margin: 0;
+    padding: 1rem 0.5rem;
+    line-height: 1;
+    display: block;
+}
+
+.TypeSelectList p:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.ActiveItem {
+    background-color: rgb(220, 220, 220);
+}
+
+.TypeSelectIcon {
+    margin: 0 0.5rem 0 0;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border: 1px solid #0071CE;
+    border-radius: 4px;
+}
+
+.TypeSelectIcon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: white;
+}
+
+.ActiveIcon {
+    background-color: #0071CE;
+}
+
+.InactiveIcon {
+    /* background-color: rgb(220, 220, 220); */
+}

@@ -1,0 +1,74 @@
+﻿.Banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    line-height: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    background-color: #0071ce;
+}
+
+.Action {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+}
+
+    .Action p {
+        margin: 0;
+    }
+
+    .Action svg {
+        margin-right: 0.5rem;
+        stroke: white;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+.ScrollWrapper {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+    .ScrollWrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+.Container {
+    padding: 0.5rem;
+    height: 100%;
+}
+
+.NotificationList {
+    margin: 0;
+    padding: 0;
+    height: calc(100% - 3rem);
+    list-style-type: none;
+}
+
+.Notification {
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-color: rgb(235,235,235);
+    border-bottom: 1px solid rgb(235,235,235);
+    transition: all .15s ease;
+    cursor: pointer;
+}
+
+.Subject {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+}
+
+.Date {
+    font-size: 0.875rem;
+    margin: 0;
+    color: rgb(70, 81, 100);
+}

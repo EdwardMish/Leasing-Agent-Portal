@@ -1,0 +1,10 @@
+﻿.Reports {
+    margin-left: 2rem;
+    width: 100%;
+    max-width: 54rem;
+}
+
+.ReportsSection {
+    display: flex;
+    flex-direction: column;
+}

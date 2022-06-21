@@ -1,0 +1,74 @@
+﻿div.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 100;
+    background-color: rgba(5, 5, 5, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.ModalContent {
+    position: relative;
+    margin: 0 1rem;
+    background: white;
+    border-radius: 0.25rem;
+    overflow-x: hidden;
+    z-index: 110;
+    max-height: 95vh;
+    min-width: 30rem;
+}
+
+.ModalHeader {
+    padding: .75rem 1rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.ModalHeader h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.1rem;
+}
+
+.ModalHeaderIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ModalHeaderIcon svg {
+    stroke: #0071CE;
+}
+
+@media print {
+    .Modal,
+    .ModalContent {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ModalContent {
+        min-width: 90vw;
+    }
+}

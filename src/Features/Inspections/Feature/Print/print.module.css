@@ -1,0 +1,213 @@
+.InspectionPrintWrapper{
+    width: 95vw;
+    padding: 0 2rem;
+}
+
+.PrintTitle {
+    break-before: always;
+}
+
+.SectionTitle {
+    margin: 2rem 0;
+}
+
+.SectionSubtitle {
+    padding: 0;
+    margin-top: 0;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.InteractionName {
+    padding: 0;
+    margin: 0;
+}
+
+.InspectionPrintWrapper p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.InspectionPrintWrapper img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@page {
+    size: 8.5in 11in;
+}
+
+.Thumbnail {
+    max-height: 6rem;
+    max-width: 6rem;
+    width: 6rem;
+    height: 6rem;
+    margin-right: 0.5rem;
+}
+
+.ImageFullSize {
+    max-width: 20rem;
+    width: 20rem;
+    height: 20rem;
+    max-height: 20rem;
+}
+
+.DetailDateWrapper {
+    border: solid 1px #a5a5a5;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.DetailDateWrapper.NoDetail {
+    background-color: #fafafa;
+}
+
+.ReplyWrapper {
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.SubSectionWrapper {
+    padding: 0.5rem 0;
+}
+
+.SubSectionWrapperColumn {
+    padding: 0.5rem 0;
+    flex-direction: column;
+}
+
+.SectionWrapper {
+    border-top: solid 3px #a5a5a5;
+}
+
+.SectionWrapper h2 {
+    text-transform: uppercase;
+}
+
+.TextOverflowBox {
+    flex-wrap: wrap;
+}
+
+.DateBox {
+    margin-left: 2rem;
+}
+
+.PrintTitlePage {
+    width: 100%;
+    height: 11in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InteractionWrapper {
+    margin-top: 2rem;
+}
+
+.Wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.MediaWrap {
+    width: 100%;
+    display: block;
+}
+
+.ImageSquare {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PrintTargetHeading {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #0071ce;
+}
+
+.PrintTargetHeading > div {
+    padding: 0.5rem 1rem;
+}
+
+.PrintTargetHeading > div:first-child {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.PrintTargetHeading p,
+.PrintTargetHeading svg {
+    color: white;
+    stroke: white;
+}
+
+.pageBreak {
+    box-sizing: border-box !important;
+    display: block;
+    -webkit-column-break-before: always;
+    break-before: always;
+    page-break-before: always;
+}
+
+.imgWrapper {
+    display: block;
+}
+
+.printButtonDisabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+@media print {
+    @page {
+        size: 8.5in 11in;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    body {
+        overflow: visible;
+    }
+
+    main {
+        overflow: visible;
+    }
+
+    h1 {
+        break-before: always;
+    }
+    .ImageSquare {
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .pageBreak {
+        display: block;
+        -webkit-column-break-before: always;
+        break-before: always;
+        page-break-before: always;
+    }
+    .pageBreak img {
+        display: block;
+        max-height: 3in;
+        -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+        page-break-inside: avoid; /* Firefox */
+        break-inside: avoid; /* IE 10+ */
+    }
+    .ImageFullSize {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+﻿.TenantTableHeading > p:nth-child(1) {
+    width: 10rem;
+}
+
+.TenantTableHeading > p:nth-child(2) {
+    width: calc(100% - 20rem);
+}
+
+.TenantTableHeading > p:nth-child(3) {
+    width: 5rem;
+}
+
+.TenantTableHeading > p:nth-child(4) {
+    width: 5rem;
+    text-align: center;
+}
+
+.TenantMonth {
+    width: 10rem;
+}
+
+.TenantAmount {
+    width: calc(100% - 20rem);
+}
+
+.TenantStatus {
+    width: 5rem;
+}
+
+.TenantAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+}
+
+    .TenantAction svg {
+        stroke: #0071ce;
+    }
+
+@media (max-width: 480px) {
+
+    .TenantTableHeading > p:nth-child(2) {
+        display: none;
+    }
+
+    .TenantTableHeading > p:nth-child(3) {
+        width: calc(100% - 10rem);
+        text-align: center;
+    }
+
+    .TenantAmount {
+        display: none;
+    }
+}

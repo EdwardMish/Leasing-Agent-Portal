@@ -1,0 +1,84 @@
+﻿.RequestNotes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.RequestNotes .requestedNote {
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 0 0.5rem;
+}
+
+/* Note Detail */
+.RequestNoteHeader {
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.RequestNoteHeader p {
+    font-size: 0.875rem;
+}
+
+.RequestNoteHeader > p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+.RequestNoteHeaderRight {
+    display: flex;
+    align-items: center;
+}
+
+.RequestNoteHeaderRight > div {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.RequestNoteHeaderRight > div > svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0 0 0.5rem;
+    color: #0071CE;
+    stroke: #0071CE;
+}
+
+.RequestNoteContent {
+    padding: 1rem 0.75rem;
+}
+
+.RequestNoteText,
+.RequestNoteText p {
+    font-size: 0.875rem;
+    line-height: 1.35;
+}
+
+.NoteAdminRow {
+    margin: 1rem 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.NoteAdminRow p {
+    font-size: 0.8rem;
+    color: rgb(70, 81, 100);
+}
+
+.NoteAdminRow p:nth-of-type(1),
+.NoteAdminRow p:nth-child(3) {
+    cursor: pointer;
+}
+
+.NoteAdminRow p:nth-child(2) {
+    width: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.IconPointer {
+    cursor: pointer;
+}
+
+.PageWrapper {
+    max-width: 45rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.ConfirmationSectionInfoBoxes {
+    min-height: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.LicenseBox {
+    width: 99.5%;
+    height: auto;
+    min-height: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+}
+
+.LicenseWrapper {
+    margin-left: 2rem;
+}
+
+.license {
+    max-height: 6rem;
+    width: 10rem;
+}
+
+@media screen and (max-width: 650px) {
+    .LicenseBox {
+        flex-direction: column;
+    }
+
+    .LicenseWrapper {
+        margin: 1rem 0 0 0;
+    }
+}

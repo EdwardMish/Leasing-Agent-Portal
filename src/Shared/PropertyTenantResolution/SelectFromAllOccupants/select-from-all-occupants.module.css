@@ -1,0 +1,80 @@
+﻿.StatePropertyList {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0 0 4px 4px;
+}
+
+.ActiveSearch {
+    width: 100%;
+    margin: 0 0 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ActiveSearch p {
+    margin: 0;
+    font-size: 0.8rem;
+    display: inline-block;
+    width: auto;
+}
+
+.ActiveSearchIcon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ActiveSearchIcon svg {
+    stroke: rgb(60, 60, 60);
+}
+
+.ButtonRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem;
+}
+
+.ButtonRow button {
+    width: calc(50% - 0.5rem);
+    display: block;
+    background-color: #0071CE;
+    border: 2px solid #0071CE;
+    font-size: 0.875rem;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.ButtonRow button:hover {
+    background: white;
+    color: #0071CE;
+}
+
+.NoActiveProperties {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 4px;
+}
+
+.NoActiveProperties p {
+    margin: 0;
+}
+
+.NoActiveProperties span {
+    display: inline-block;
+    color: #0071CE;
+    cursor: pointer;
+}

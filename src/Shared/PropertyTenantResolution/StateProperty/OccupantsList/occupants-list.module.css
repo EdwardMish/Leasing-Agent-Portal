@@ -1,0 +1,9 @@
+﻿.OccupantsList {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+.OccupantsList p {
+    font-size: 0.875rem;
+}

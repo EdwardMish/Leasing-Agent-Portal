@@ -1,0 +1,76 @@
+.SummaryItem {
+    min-width: 10rem;
+    margin-top: 0.5rem;
+}
+
+.SummaryItem img{
+    margin-top: 1rem;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.OverviewBorder {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0 0.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+}
+
+.ProfileWrapper {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.SummaryWrapper {
+    margin-top: 1rem;
+}
+
+.PrintArea {
+    display: none;
+    padding: 4rem 2rem;
+}
+
+.CompletedBadge{
+    padding: 0.6rem;
+    border: 2px solid rgb(255, 158, 24);
+    display: inline-block;
+    border-radius: 0.25rem;
+    color: rgb(255, 158, 24);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .IconButtonWrapper {
+        width: 100%;
+    }
+
+    .IconPositioning {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: #0071ce 2px solid;
+        padding: 0.25rem 1.5rem;
+        border-radius: 0.25rem;
+        margin: 1rem 0 0;
+    }
+
+    .ButtonPositioning {
+        width: 100%;
+        margin: 1rem 0 0;
+    }
+
+    .SummaryGroup {
+        margin: 0.5rem 0;
+    }
+}
+
+@media print {
+    .PrintArea {
+        display: block;
+    }
+}
+

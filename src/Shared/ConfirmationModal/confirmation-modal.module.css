@@ -1,0 +1,19 @@
+﻿.ConfirmationModalContent {
+    padding: 0.75rem 1rem;
+}
+
+.ConfirmationModalContent p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.ButtonRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ButtonRow button {
+    width: calc(50% - 0.5rem);
+}

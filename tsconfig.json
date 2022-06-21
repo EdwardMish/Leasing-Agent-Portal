@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es5",
+        "lib": ["es5", "es6", "es7", "es2017", "dom", "dom.iterable", "esnext"],
+        "declaration": false,
+        "sourceMap": true,
+        "allowJs": false,
+        "jsx": "react",
+        "strict": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "rootDirs": ["src", "/"],
+        "baseUrl": "src",
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["src/Workers/**/*", "node_modules", "dist", "wwwroot", "public"]
+}

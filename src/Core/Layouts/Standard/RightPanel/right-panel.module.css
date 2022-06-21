@@ -1,0 +1,84 @@
+﻿.RightPanel {
+    width: 23rem;
+    position: fixed;
+    top: calc(4rem + 5px);
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: white;
+    border-left: 1px solid rgb(235,235,235);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.ClosedPanel {
+    right: -23rem;
+    transition: all ease 0.25s;
+}
+
+.OpenPanel {
+    right: 0;
+    transition: all ease 0.25s;
+}
+
+.RightPanelBody {
+    height: calc(100% - 4.5rem);
+}
+
+.CloseRightPanelXButton {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.RightPanelBody.HasEmergencyItems {
+    padding: 1.5rem 0 0;
+}
+
+.RightPanelFooter {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(245,245,245);
+    border-top: 1px solid rgb(235,235,235);
+    display: flex;
+    align-items: center;
+}
+
+.RightPanelFooter ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+}
+
+.RightPanelFooter ul li:nth-of-type(2) {
+    margin: 0 1rem;
+}
+
+.RightPanelFooter ul li a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: rgb(70, 81, 100);
+    line-height: 1rem;
+    height: 1rem;
+    display: block;
+}
+
+
+@media screen and (max-width: 550px) {
+    .RightPanel {
+        width: 100%;
+    }
+
+    .ClosedPanel {
+        right: -100vw;
+    }
+}

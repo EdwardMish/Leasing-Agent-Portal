@@ -1,0 +1,42 @@
+﻿.OwnerOperatorAdminView {
+    padding: 1rem;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.OwnerOperatorAdminViewDisclaimer {
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+}
+
+.OwnerOperatorAdminView ul {
+    margin: 0;
+    padding: 0 0 0 1.25rem;
+}
+
+.SplitView {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SplitView > div:first-of-type {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 750px) {
+    .SplitView {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .SplitView > div:first-of-type {
+        flex-grow: 0;
+        margin-right: 1.5rem;
+        min-width: 10rem;
+    }
+
+    .SplitView > div:last-of-type {
+        flex-grow: 1;
+    }
+}

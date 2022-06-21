@@ -1,0 +1,49 @@
+﻿.ToastMessageWrapper {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+    z-index: 200;
+}
+
+.ToastMessage {
+    position: relative;
+    width: 20rem;
+    max-width: calc(95vw - 2rem);
+    padding: 1rem;
+    border: 1px solid rgb(70, 81, 100);
+    background-color: white;
+    box-shadow: 0px 10px 10px -7px rgba(50, 50, 50, 0.5);
+    border-radius: 0.5rem;
+}
+
+.ToastMessageIcon {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ToastMessageIcon svg {
+    stroke: rgb(70, 81, 100);
+}
+
+.ToastMessage h2 {
+    margin: 0 0 0.4rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.ToastMessage p {
+    line-height: 1.2rem;
+}
+
+.Action {
+    margin: 0.35rem 0 0;
+    cursor: pointer;
+    color: #0071CE;
+}

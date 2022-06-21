@@ -1,0 +1,23 @@
+.TasksListItem {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 0.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 0.25rem;
+    transition: all 0.15s ease;
+}
+
+.HeaderText {
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.ListItems {
+    color: #333;
+    font-weight: 100;
+    line-height: 1.5rem;
+}

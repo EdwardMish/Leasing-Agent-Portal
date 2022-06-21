@@ -1,0 +1,26 @@
+﻿.PropertyTenantSelectionHeader {
+    composes: InputElement from '../../FormFields/form-fields.module.css';
+
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PropertyTenantSelectionHeader p {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.PropertyTenantSelectionHeader svg {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: hsl(206, 100%, 40%);
+}
+
+.WithMargin {
+    margin: 0 0 1rem;
+}

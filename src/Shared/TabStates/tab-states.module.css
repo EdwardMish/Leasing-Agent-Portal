@@ -1,0 +1,50 @@
+﻿.TabStates {
+    display: flex;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin: 0 0 1rem;
+}
+
+.TabWrapper {
+    display: flex;
+}
+
+.TabStatesWithAction {
+    justify-content: space-between;
+}
+
+.WithComponent {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.NoMargin {
+    margin: 0;
+}
+
+.TabStatesRow {
+    display: flex;
+}
+
+.TabStates h2 {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+.TabStatesActiveTab {
+    color: #0071CE;
+    border-bottom: 3px solid #0071CE;
+}
+
+.TabStatesInactiveTab {
+    border-bottom: 3px solid transparent;
+}
+
+.ActionWrapper {
+    height: 2rem;
+    margin: 3px 0 0;
+    display: flex;
+    align-items: center;
+}

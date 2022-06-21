@@ -1,0 +1,11 @@
+﻿.ConversationAdminPanel {
+    padding: 1rem;
+}
+
+.ConversationAdminPanel p {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    color: rgb(70, 81, 100);
+    cursor: pointer;
+}

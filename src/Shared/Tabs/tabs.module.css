@@ -1,0 +1,103 @@
+﻿@import '../Styles/colors.css';
+
+.HeaderItem {
+    padding: 0.5rem 0;
+    margin: 0 1rem 0 0;
+    border-bottom: 3px solid;
+}
+
+.HeaderItem a,
+.HeaderItem p {
+    display: block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: none;
+    cursor: inherit;
+}
+
+.HeaderItem.InactiveTab {
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.HeaderItem.ActiveTab {
+    border-color: var(--color-BrandBlue);
+    cursor: default;
+}
+
+.HeaderItem.ActiveTab a,
+.HeaderItem.ActiveTab p {
+    color: var(--color-BrandBlue);
+}
+
+.ActionsMenu {
+    position: absolute;
+    z-index: 1;
+    top: calc(100% - 1px);
+    right: 0;
+    width: auto;
+    align-self: flex-end;
+    border: 1px solid var(--color-OffWhite);
+    box-shadow: 0px 3px 5px rgb(70 81 100 / 20%);
+    background: white;
+}
+
+.ActionsMenuItem {
+    padding: 0.75rem 1rem;
+}
+
+.ActionsMenuItem:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.MobileSelectedTab {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid var(--color-LightGrey);
+    border-left: 3px solid var(--color-LightGrey);
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.MobileHeaderItems {
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    right: 0;
+    width: calc(100% + 4px);
+    border: 1px solid var(--color-OffWhite);
+    box-shadow: 0px 3px 5px rgb(70 81 100 / 20%);
+    background: white;
+}
+
+.MobileHeaderItems .HeaderItem {
+    margin: 0 0 -1px;
+    padding: 0;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.MobileHeaderItems .HeaderItem:hover {
+    padding-left: 4px;
+    transition: all 0.15s ease;
+}
+
+.MobileHeaderItems .HeaderItem a,
+.MobileHeaderItems .HeaderItem p {
+    padding: 0.75rem;
+    font-weight: 400;
+}
+
+.MobileHeaderItems .HeaderItem.ActiveTab,
+.MobileHeaderItems .HeaderItem.InactiveTab {
+    border-bottom: 1px solid var(--color-OffWhite);
+    border-left: 3px solid var(--color-OffWhite);
+}
+
+.MobileHeaderItems .HeaderItem.ActiveTab {
+    border-left: 3px solid var(--color-BrandBlue);
+}

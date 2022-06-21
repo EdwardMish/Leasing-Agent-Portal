@@ -1,0 +1,112 @@
+﻿.FeedBackButton {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(235,235,235);
+    border-radius: 2rem;
+    box-shadow: 0px 3px 5px rgba(70, 81, 100, 0.2);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.FeedBackButton:hover {
+    transform: translateY(-0.25rem);
+    transition: all 0.15s ease;
+}
+
+.FeedBackButton:active {
+    transition: all 0.15s ease;
+    background: rgb(70, 81, 100);
+}
+
+.FeedBackButton svg {
+    margin: 0 0.35rem 0 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: rgb(70, 81, 100);
+    stroke-width: 0.08rem;
+}
+
+.FeedBackButton p {
+    display: block;
+    margin: 0;
+    font-size: 0.875rem;
+    color: rgb(70, 81, 100);
+}
+
+.FeedBackButton:active p {
+    color: white;
+}
+
+.FeedBackButton:active svg {
+    stroke: white;
+}
+
+.SatisfactionBlock {
+    min-width: 30rem;
+}
+
+.StarRow {
+    width: 100%;
+    padding: 2rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StarRow > div:hover {
+    cursor: pointer;
+}
+
+.StarRow svg {
+    margin: 0 0.75rem;
+    width: 5vw;
+    height: auto;
+    min-width: 2rem;
+    max-width: 2.75rem;
+    stroke: hsl(206, 100%, 40%);
+    stroke-width: 1;
+}
+
+.StarRow .SelectedValue svg {
+    fill: hsl(206, 100%, 40%);
+}
+
+.StarRow .NotSelected svg {
+    fill: none;
+}
+
+.AdditionalInformation {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.AdditionalInformation textarea {
+    min-height: 5rem;
+}
+
+.InputReceived {
+    width: 100%;
+    padding: 1rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.InputReceivedHeader {
+    font-weight: 700;
+    margin: 0 0 .5rem;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+    .SatisfactionBlock {
+        min-width: 70vw;
+    }
+
+    .StarRow svg {
+        margin: 0 0.5rem;
+    }
+}

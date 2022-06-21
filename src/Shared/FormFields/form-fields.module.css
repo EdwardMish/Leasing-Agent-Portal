@@ -1,0 +1,106 @@
+﻿.InputElement {
+    padding: 0.75rem 0.5rem;
+    background: rgb(245, 245, 245);
+    font-size: 0.875rem;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(205, 205, 205);
+}
+
+.InputElement:active,
+.InputElement:focus {
+    border: 2px solid #0071ce;
+    border-radius: 4px;
+}
+
+.InputElementLabel {
+    display: block;
+    margin: 0 0 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.TextAreaInput {
+    line-height: 1.5;
+}
+
+.CheckboxLabel {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin: .5rem 0 0 0
+}
+
+.Hidden {
+    display: none;
+}
+
+.SubmitButton {
+    composes: Button from '../Styles/button.module.css';
+    color: white;
+}
+
+.SubmitButton:hover {
+    color: #0071ce;
+}
+
+.legend {
+    margin: 0 0 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.radioList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.radioList li {
+    padding: 0;
+}
+
+.ActionButton {
+    background-color: #0071ce;
+    border-color: #0071ce;
+    color: #fff;
+}
+
+.ActionButton:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.CheckBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem;
+}
+
+.CheckBox label {
+    margin: 0 0 0 0.5rem;
+    position: relative;
+    font-size: 0.875rem;
+}
+
+.CheckBox input {
+    margin: 0;
+    position: relative;
+}
+
+.FormRow {
+    display: block;
+    margin: 0 0 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .InputElement {
+        font-size: 16px;
+    }
+}

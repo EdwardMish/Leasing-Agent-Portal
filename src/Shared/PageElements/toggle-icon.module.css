@@ -1,0 +1,18 @@
+﻿.ActiveToggleIcon {
+    margin: 0.25rem 0 0;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ActiveToggleIcon p {
+    font-size: 0.875rem;
+    margin: 0 0 0 0.5rem;
+    color: rgb(50, 50, 50);
+}
+
+.ActiveToggleIcon svg {
+    height: 1.75rem;
+    width: auto;
+}

@@ -1,0 +1,40 @@
+.InspectionItem,
+.InteractionItem {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-LightGrey);
+    border-radius: 4px;
+}
+
+.InspectionItem:last-child > .SecondaryText {
+    display: none;
+}
+
+.TopLevelComment {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-LightGrey);
+    border-radius: 4px;
+}
+
+.PrintTargetHeading {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #0071ce;
+}
+
+.PrintTargetHeading > div {
+    padding: 0.5rem 1rem;
+}
+
+.PrintTargetHeading > div:first-child {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.PrintTargetHeading p,
+.PrintTargetHeading svg {
+    color: white;
+    stroke: white;
+}

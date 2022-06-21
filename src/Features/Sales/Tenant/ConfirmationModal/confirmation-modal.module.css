@@ -1,0 +1,41 @@
+﻿.ConfirmationModal {
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0;
+    position: relative;
+    width: 25rem;
+    max-width: 95vw;
+    max-height: 95vh;
+}
+
+    .ConfirmationModal h2 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin: 0 0 0.5rem;
+    }
+
+.ConfirmationModalContent {
+    padding: .75rem 1rem;
+    margin-bottom: 0;
+}
+
+    .ConfirmationModalContent p {
+        font-size: 0.875rem;
+    }
+
+        .ConfirmationModalContent p.CallOut {
+            font-size: 1.75rem;
+            margin: 0 0 1rem;
+        }
+
+    .ConfirmationModalContent button:first-of-type {
+        margin-right: 1rem;
+    }
+
+.IncreasePercentage {
+    color: hsl(125,50%,21%);
+}
+
+.DecreasePercentage {
+    color: red;
+}

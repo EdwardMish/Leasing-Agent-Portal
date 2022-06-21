@@ -1,0 +1,63 @@
+﻿.UserItem {
+    margin: 0 0 1.25rem;
+    max-width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.CurrentUser {
+    margin-left: 4rem;
+    align-items: flex-end;
+}
+
+.NotCurrentUser {
+    margin-right: 4rem;
+    align-items: flex-start;
+}
+
+.MessageData {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.25rem;
+}
+
+.CurrentUser .MessageData {
+    margin-right: 0.75rem;
+    justify-content: flex-end;
+}
+
+.NotCurrentUser .MessageData {
+    margin-left: 0.75rem;
+}
+
+.MessageData p {
+    margin: 0;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+}
+
+.MessageData .MessageAuthor {
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.MessageAuthorTitle {
+    color: rgb(70, 81, 100);
+    font-size: 0.7rem;
+    margin: -0.25rem 0.75rem .5rem .75rem;
+}
+
+.MessageContent {
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    margin: 0;
+    padding: 0.75rem;
+    background: white;
+    border: solid 1px rgb(210, 210, 210);
+    border-radius: 0.5rem;
+}
+
+.CurrentUser .MessageContent {
+    background: rgb(245, 245, 245);
+}

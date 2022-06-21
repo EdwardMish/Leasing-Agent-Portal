@@ -1,0 +1,32 @@
+.keyTextStyle {
+    color: #a5a5a5;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.valueTextStyle {
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.valueSmallText {
+    line-height: 1.5;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ColumnWrapperRow {
+    width: 7.5rem;
+}
+
+.Right {
+    text-align: right;
+}
+
+@media screen and (max-width: 650px) {
+}
+

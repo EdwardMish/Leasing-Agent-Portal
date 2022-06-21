@@ -1,0 +1,68 @@
+﻿.TenantWrapperHeading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.TenantWrapperSecondaryHeading {
+    font-size: 1.5rem;
+    margin: 0.75rem 0 0.5rem;
+    line-height: 1.5rem;
+}
+
+.SelectAnother {
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #0071CE;
+    cursor: pointer;
+}
+
+.SelectAnother svg {
+    stroke: currentColor;
+    height: 1rem;
+    width: auto;
+    margin: 0 0.1rem 0 0;
+}
+
+.SelectAnother span {
+    font-size: 0.875rem;
+    line-height:  1.5rem;
+}
+
+.OccupantListSelect {
+    display: block;
+    padding: .75rem 1rem;
+    background-color: rgba(0, 0, 0, .03);
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    margin: 0 0 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    /* color: rgb(33, 37, 41); */
+    color: #0071ce;
+    text-decoration: none;
+}
+
+.OccupantListSelect:hover {
+    margin-left: 0.5rem;
+    transition: all 0.15s ease;
+}
+
+.OccupantListSelect:first-of-type {
+    margin-top: 1rem;
+}
+
+.OccupantListSelect p {
+    line-height: 1;
+}
+
+.OccupantListSelect p:first-of-type {
+    margin: 0 0 0.5rem;
+    font-weight: 700;
+}
+
+.OccupantListSelect p:last-of-type {
+    margin: 0;
+    font-size: 0.875rem;
+}

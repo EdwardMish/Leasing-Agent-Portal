@@ -1,0 +1,15 @@
+﻿.ExpandableSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+    .ExpandableSection svg {
+        stroke: #0071b9;
+    }
+
+.ExpandableSectionChildren {
+    background-color: white;
+    margin: 1rem;
+}

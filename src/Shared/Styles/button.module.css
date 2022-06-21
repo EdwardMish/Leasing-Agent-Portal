@@ -1,0 +1,202 @@
+﻿.Button {
+  align-items: center;
+  border-radius: 0.25rem;
+  border: 2px solid;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.Button span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.Button svg {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-left: 0.35rem;
+}
+
+.Button:hover {
+  transition: all 0.15s ease;
+  font-weight: 700;
+}
+
+.Button:hover span,
+.Button:hover svg {
+  color: currentColor;
+  stroke: currentColor;
+}
+
+.Button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.Button.ButtonComplete {
+  margin: 2rem 0 0;
+  color: hsl(125, 50%, 21%);
+}
+
+.Button.ButtonDecline {
+  width: calc(50% - 0.25rem);
+  color: hsl(0, 80%, 22%);
+}
+
+.Button.ButtonPrint {
+  width: calc(50% - 0.25rem);
+  color: #0071b9;
+}
+
+a.Button {
+  text-decoration: none;
+}
+
+.Button.LowProfileButton {
+  padding: 0.25rem;
+}
+
+.Button[disabled]:hover {
+  opacity: 50%;
+}
+
+.Button[disabled]:hover span {
+  opacity: 50%;
+}
+
+/*  Colors: Standard */
+.Button {
+  border-color: var(--color-BrandBlue);
+  background-color: var(--color-BrandBlue);
+}
+
+.Button span {
+  color: white;
+}
+
+.Button:hover {
+  background-color: white;
+}
+
+.Button:hover span {
+  color: var(--color-BrandBlue);
+}
+
+.Button[disabled]:hover {
+  opacity: 50%;
+}
+
+.Button[disabled]:hover span {
+  opacity: 50%;
+}
+
+.Button.InverseButton {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid hsl(206, 100%, 80%);
+}
+
+.Button.InverseButton span {
+  color: var(--color-BrandBlue);
+}
+
+.Button.InverseButton:hover {
+  border-color: var(--color-BrandBlue);
+}
+
+.Button.InverseButton:hover span {
+  color: var(--color-BrandBlue);
+}
+
+/*  Colors: Warning */
+.Button.WarningButton {
+  border-color: var(--color-WarningRed);
+  background-color: var(--color-WarningRed);
+}
+
+.Button.WarningButton:hover {
+  background-color: white;
+}
+
+.Button.WarningButton:hover span {
+  color: var(--color-WarningRed);
+}
+
+/*  Colors: Warning Inverse */
+.Button.WarningButton.InverseButton {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid var(--color-WarningRedSecondary);
+}
+
+.Button.WarningButton.InverseButton span {
+  color: var(--color-WarningRed);
+}
+
+.Button.WarningButton.InverseButton:hover {
+  border-color: var(--color-WarningRed);
+}
+
+/*  Colors: Reverse */
+.Button.ReverseButton {
+  border-color: var(--color-White);
+  background-color: var(--color-White);
+}
+
+.Button.ReverseButton span {
+  color: var(--color-BrandBlue);
+}
+
+.Button.ReverseButton:hover {
+  background-color: transparent;
+}
+
+.Button.ReverseButton:hover span {
+  color: var(--color-White);
+}
+
+/*  Colors: Reverse Inverse */
+.Button.ReverseButton.InverseButton {
+  background-color: transparent;
+  border: 1px solid var(--color-White);
+}
+
+.Button.ReverseButton.InverseButton span {
+  color: var(--color-White);
+}
+
+.Button.ReverseButton.InverseButton:hover {
+  background-color: var(--color-White);
+}
+
+.Button.ReverseButton.InverseButton:hover span {
+  color: var(--color-White);
+}
+
+/*  Colors: Reverse Warning */
+/*  Colors: Reverse Warning Inverse */
+.Button.ReverseButton.WarningButton,
+.Button.ReverseButton.WarningButton.InverseButton {
+  border-color: var(--color-White);
+  background-color: var(--color-White);
+}
+
+.Button.ReverseButton.WarningButton span,
+.Button.ReverseButton.WarningButton.InverseButton span {
+  color: var(--color-WarningRed);
+}
+
+.Button.ReverseButton.WarningButton:hover,
+.Button.ReverseButton.WarningButton.InverseButton:hover {
+  background-color: transparent;
+}
+
+.Button.ReverseButton.WarningButton:hover span,
+.Button.ReverseButton.WarningButton.InverseButton:hover span {
+  color: var(--color-White);
+}

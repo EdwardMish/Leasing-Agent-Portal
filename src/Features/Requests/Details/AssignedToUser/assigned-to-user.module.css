@@ -1,0 +1,44 @@
+﻿.AssignedToUser {
+    position: relative;
+    padding-top: 5px;
+}
+
+.AssignedToUser p,
+.WorkingModal p {
+    line-height: 1.5rem;
+}
+
+.Unassigned {
+    padding: 1rem;
+    max-width: 20rem;
+    background: rgb(245, 245, 245);
+    font-size: 0.875rem;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 4px;
+}
+
+.UserEmail {
+    color: rgb(120,120,120);
+}
+
+.EditIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.EditIcon svg {
+    width: 1rem;
+    height: 1rem;
+    color: #0071CE;
+}
+
+.AssignmentModal {
+    padding: 1rem;
+}

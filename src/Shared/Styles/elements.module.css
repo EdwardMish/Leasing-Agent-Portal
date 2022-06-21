@@ -1,0 +1,24 @@
+﻿.DefaultButton {
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(206, 100%, 40%);
+    border: 2px solid hsl(206, 100%, 40%);
+    border-radius: 0.25rem;
+    text-align: center;
+    line-height: 1.5rem;
+    transition: all .15s ease;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+    .DefaultButton:hover {
+        background: white;
+        color: hsl(206, 100%, 40%);
+        transition: all .15s ease;
+        font-weight: 700;
+    }

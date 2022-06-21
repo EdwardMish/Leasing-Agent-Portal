@@ -1,0 +1,48 @@
+﻿.ConversationEventList {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.ConversationEventList::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.EventDate {
+    position: relative;
+    width: 100%;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EventDate p {
+    position: relative;
+    display: inline;
+    padding: 0.5rem 2rem;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 0.75rem;
+    background: rgb(255, 255, 255);
+    border: solid 1px rgb(210, 210, 210);
+    border-radius: 20px;
+}
+
+.EventDate:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(210, 210, 210);
+    z-index: 0;
+}
+
+.Scroll {
+    height: 6rem;
+}

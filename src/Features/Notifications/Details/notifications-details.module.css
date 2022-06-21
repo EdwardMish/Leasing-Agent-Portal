@@ -1,0 +1,20 @@
+﻿.NotificationDetails {
+    height: 100%;
+    padding: 0 1rem;
+}
+
+    .NotificationDetails h1 {
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+.ScrollWrapper {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+    .ScrollWrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }

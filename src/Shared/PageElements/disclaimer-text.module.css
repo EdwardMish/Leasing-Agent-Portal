@@ -1,0 +1,38 @@
+.Disclaimer {
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.warning {
+    color: #650b0b;
+    font-weight: 400;
+}
+
+.normal {
+    color: #a5a5a5;
+}
+
+.right {
+    text-align: right;
+}
+
+.footer {
+    margin-top: 2rem;
+    max-width: 40rem;
+}
+
+.PaddingBottom {
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        margin-top: 2.5rem;
+    }
+
+    .right {
+        text-align: left;
+    }
+}

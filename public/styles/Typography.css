@@ -1,0 +1,29 @@
+﻿h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-danger {
+    color: #c00;
+}
+
+.text-subtext {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: rgb(40, 40, 40);
+}
+
+.global-filters-tagline {
+    font-style: italic;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}

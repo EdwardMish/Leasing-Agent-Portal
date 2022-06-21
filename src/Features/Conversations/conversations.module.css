@@ -1,0 +1,269 @@
+﻿.LoadingWrapper {
+    padding: 0 1rem;
+}
+
+.ScrollButton {
+        position: fixed;
+        bottom: 3rem;
+        right: 0.5rem;
+        z-index: 10;
+}
+
+.ScrollWrapper {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.ScrollWrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.ConversationListHeader {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #0071ce;
+    cursor: pointer;
+}
+
+.ConversationListHeader p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.14rem;
+    text-transform: uppercase;
+}
+
+.ConversationListHeader p.Selected {
+    background: #0071ce;
+    color: white;
+}
+
+.ConversationListHeader p.NotSelected {
+    background: white;
+    color: #0071ce;
+}
+
+.ConversationsList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: calc(100% - 3rem);
+    scroll-behavior: smooth;
+}
+
+.ConversationItem {
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-color: rgb(235,235,235);
+    border-bottom: 1px solid rgb(235,235,235);
+    transition: all .15s ease;
+    cursor: pointer;
+}
+
+.ConversationItem:active,
+.ConversationItem:hover {
+    border-left: 10px solid rgb(235,235,235);
+    transition: all .15s ease;
+}
+
+.UnreadMessageIndicator {
+    position: absolute;
+    top: calc(50% - 1rem);
+    right: 1rem;
+    line-height: 2rem;
+    width: 2rem;
+    background-color: #FF9E18;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.Topic {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+}
+
+.Message {
+    font-size: 0.875rem;
+    margin: 0;
+    color: rgb(70, 81, 100);
+}
+
+/*
+    Conversation Panel
+*/
+.Conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.ConversationContent {
+    height: calc(100% - 3rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.ConversationContent > p {
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.MessageList {
+    height: calc(100% - 6.5rem);
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0.5rem;
+}
+
+.MessageAuthor,
+.MessageDate {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+}
+
+.MessageDate {
+    font-weight: normal;
+}
+
+.MessageContent {
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    margin: 0;
+}
+
+.MessageInput {
+    height: 5rem;
+    padding: 0 1rem;
+    border-top: 1px solid rgb(235,235,235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MessageInput input {
+    border: 1px solid rgb(220,220,220);
+    border-radius: 0.5rem;
+    line-height: 1.5rem;
+    width: calc(100% - 2.5rem);
+    background: rgb(250, 250, 250);
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.SendMessage {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MessageInput svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: #0071ce;
+}
+
+/*
+    Duplicate styles from Tenant Sales
+*/
+.SelectAnother {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    font-style: normal;
+    line-height: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    background-color: #0071ce;
+}
+
+.SelectAnother p {
+    margin: 0;
+}
+
+.SelectAnother svg {
+    margin-right: 0.5rem;
+    stroke: white;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.Settings {
+    float: right;
+}
+
+/*
+    Shared Event Styles
+*/
+.SystemItem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.SystemItem::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(240, 240, 240);
+    z-index: 0;
+}
+
+.SystemItem svg {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 0.5rem;
+    fill: rgb(215,215,215);
+    stroke: none;
+}
+
+.SystemItem p {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0 1rem;
+    background-color: white;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    z-index: 1;
+}
+
+.SystemItem b,
+.SystemItem p span {
+    font-weight: 700;
+}
+
+/*
+    Events
+*/
+.ParticipantJoinedConversation {
+    text-align: center;
+}

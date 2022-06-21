@@ -1,0 +1,7 @@
+﻿.PageWrapper {
+    composes: PageWrapper from '../Styles/page.module.css';
+}
+
+.PageWrapperBreadcrumbs {
+    composes: PageWrapperBreadcrumbs from '../Styles/page.module.css';
+}

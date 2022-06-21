@@ -1,0 +1,87 @@
+.TableHeading,
+.PagingWrapper {
+    background-color: rgb(248, 248, 248);
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.Row {
+    display: flex;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    justify-content: space-between;
+}
+.RowText {
+    text-decoration: none;
+    margin: 0;
+    font-size: 0.8rem !important;
+    line-height: 2rem;
+    color: black;
+    cursor: pointer;
+}
+.TableHeading p {
+    font-weight: 700;
+}
+.TableHeading p svg {
+    padding-top: 0.75rem
+}
+.TypeHeading,
+.Type {
+    width: 6rem
+}
+.PropertyHeading,
+.Property {
+    width: 12rem
+}
+.OccupantHeading,
+.Occupant {
+    width: 12rem
+}
+.StatusHeading,
+.Status {
+    width: 4rem
+}
+.DaysOpenHeading,
+.DaysOpen {
+    width: 6rem
+}
+.PagingWrapper {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.ItemsPerPage {
+    display: flex;
+    width: 5rem;
+    padding-left: .5rem;
+}
+.CurrentPage {
+    width: 13rem;
+    line-height: 2rem;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.CurrentPage div,
+.CurrentPage button {
+    display: flex;
+    padding: 0 .5rem;
+}
+.SearchBar {
+    margin: 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SearchIcon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.SearchIcon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: #0071CE;
+}
+

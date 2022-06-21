@@ -1,0 +1,29 @@
+﻿.ValidationMessage {
+    padding: 0.4rem 0.5rem;
+    width: 100%;
+    transition: .3s;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0.25rem 0 0;
+}
+
+.ValidationMessage svg {
+    display: block;
+    margin-right: 0.35rem;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.ValidationMessage span {
+    display: inline-block;
+    line-height: 1.15rem;
+    font-size: 0.8rem;
+    margin-top: 1px;
+}
+
+.ValidationError {
+    color: maroon;
+    border-color: maroon;
+}

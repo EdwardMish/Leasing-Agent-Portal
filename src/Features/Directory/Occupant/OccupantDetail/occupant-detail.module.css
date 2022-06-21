@@ -1,0 +1,43 @@
+﻿.OccupantDetailInfo {
+    margin: 1rem 0;
+}
+
+.OccupantDetailSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin: 1rem 0;
+}
+
+.OccupantDetailTitle {
+    margin: 1rem 0 0.5rem;
+}
+
+.OccupantDetailMessage {
+    margin: 1rem 0 0;
+}
+
+/*
+    Tab titles have 3px border
+    Compensation in padding until componetize section
+*/
+.OccupantDetailSectionTitle {
+    margin: 0;
+    padding: 0.5rem 0 calc(0.5rem + 3px);
+    font-size: 1rem;
+}
+
+.OccupantDetailSection a {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 2rem;
+}
+
+.OccupantDetailSection svg {
+    stroke: #0071CE;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.25rem;
+}

@@ -1,0 +1,51 @@
+﻿.UsersListTable {
+    margin: 1rem 0 0;
+}
+
+.UsersListTableFooter {
+    height: 2.5rem;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    display: flex;
+    align-items: center;
+}
+
+.UsersListTableFooter p {
+    margin: 0;
+    padding: 0;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+.UsersListTableFooter > p {
+    text-align: right;
+    width: calc(100% - 8rem);
+}
+
+.UsersListSelectList {
+    width: 3rem;
+}
+
+.UsersListPaginationIconSet {
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UsersListPaginationIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.UsersListPaginationIcon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: rgb(25, 25, 25);
+}

@@ -1,0 +1,9 @@
+.PrependWrapper {
+    margin: 0;
+}
+
+@media screen and (max-width: 525px) {
+    .PrependWrapper {
+        margin: 0.25rem 0;
+    }
+}

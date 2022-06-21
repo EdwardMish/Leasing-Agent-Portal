@@ -1,0 +1,94 @@
+.ButtonWrapper {
+    padding: 2rem 0 1rem 0;
+}
+
+.DocumentsSecondHeader {
+    margin: 1rem 0;
+}
+
+.PageWrapper {
+    max-width: 45rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid rgb(235, 235, 235);
+    font-family: 'Lato', sans-serif;
+}
+
+.PageStyles {
+    font-family: 'Lato', sans-serif;
+}
+
+.AssetsHeader {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.VerticalFieldName {
+    color: darkgray;
+}
+
+.AssetHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.HeaderPadding {
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.LeadInputHalfDropdown {
+    height: 4.35rem;
+}
+
+.LeadInput {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0.75rem 0 1.5rem 0;
+}
+
+.MockTextArea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 4.75rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: rgb(240, 240, 240);
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875rem;
+}
+
+.UploadTotalWrapper {
+    text-align: right;
+}
+
+.LeadInputHalf {
+    width: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .flex {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .LeadInputHalfDropdown {
+        width: 100%;
+        padding: 0;
+    }
+
+    .LeadInputHalf {
+        width: 100%;
+    }
+}
+

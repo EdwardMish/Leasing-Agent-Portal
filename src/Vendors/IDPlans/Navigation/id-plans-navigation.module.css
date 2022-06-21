@@ -1,0 +1,12 @@
+﻿.IDPlansNavigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.IDPlansNavigationPanel {
+    margin: 0 0.5rem 1rem;
+    width: auto;
+    min-width: 8rem;
+    max-width: 10rem;
+    flex: 1;
+}

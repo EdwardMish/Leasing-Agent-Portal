@@ -1,0 +1,47 @@
+﻿.HiddenField {
+    display: none;
+}
+
+.UserForm,
+.UserFormBlock {
+    margin: 0 0 1rem;
+}
+
+.UserFormName {
+    margin: 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UserFormName > div {
+    width: calc(50% - 0.5rem);
+}
+
+.UserFormSubText {
+    margin: 0 0 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(150, 150, 150);
+    display: block;
+}
+
+.UserFormWarning {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid
+}
+
+@media (max-width: 550px) {
+    .UserFormEmailRow,
+    .UserFormName {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .UserFormEmailRow > div,
+    .UserFormName div {
+        width: 100%;
+        margin: 0 0 1rem;
+    }
+}

@@ -1,0 +1,79 @@
+.NewsList {
+    margin: 1rem 0 0;
+}
+
+.NewsListItem {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 0.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    cursor: pointer;
+}
+
+.NewsListItem a {
+    text-decoration: none;
+    font-style: normal;
+    color: #000000;
+}
+
+.NewsListItem .Subject {
+    color: #0071ce;
+}
+
+.NewsListItem .PublishDate {
+    font-weight: normal;
+}
+
+.NewsListItem:hover {
+    margin-left: 0.5rem;
+    transition: all 0.15s ease;
+}
+
+.EmergencyIcon {
+    width: 2.5rem;
+    background-color: #ff9e18;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    float: left;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    margin-right: 0.5rem;
+}
+
+.ShowMore {
+    margin: 0 auto;
+}
+
+.Read {
+    font-weight: lighter;
+}
+
+.Unread {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.CreateButton {
+    display: inline-block;
+    margin: 0.25rem 0;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(206, 100%, 40%);
+    border: 2px solid hsl(206, 100%, 40%);
+    border-radius: 0.25rem;
+    text-align: center;
+    line-height: 1rem;
+    transition: all 0.15s ease;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin: 1rem 0;
+}

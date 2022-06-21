@@ -1,0 +1,17 @@
+.desktopRow {
+    flex-direction: row;
+}
+
+.desktopColumn {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+    .mobileRow {
+        flex-direction: row;
+    }
+
+    .mobileColumn {
+        flex-direction: column;
+    }
+}

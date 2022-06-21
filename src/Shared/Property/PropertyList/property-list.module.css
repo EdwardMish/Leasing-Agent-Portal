@@ -1,0 +1,60 @@
+﻿.PropertyList {
+    margin: 1rem 0 0;
+}
+
+.PropertyList h2 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.PropertyList a {
+    text-decoration: none;
+    color: #0071ce;
+}
+
+.PropertyListItem {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 0.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+    transition: all .15s ease;
+    cursor: pointer;
+}
+
+.PropertyListItem:hover {
+    margin-left: 0.5rem;
+    transition: all .15s ease;
+}
+
+.PropertyListItem h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.OccupantListItemWrapper {
+    margin-bottom: 1.25rem;
+}
+
+.OccupantListItem {
+    display: block;
+    width: calc(100% - 1.5rem);
+    padding: 0.5rem;
+    margin: 0 0 0.5rem 1.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+    transition: all .15s ease;
+    cursor: pointer;
+}
+
+.OccupantListItem:hover {
+    margin-left: 1.75rem;
+    transition: all .15s ease;
+}
+
+.OccupantListItem p {
+    line-height: 1.4rem;
+    font-size: 0.875rem;
+    margin: 0;
+}

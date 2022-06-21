@@ -1,0 +1,30 @@
+.DateBreak {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #a5a5a5;
+}
+
+.TimeText {
+    color: #333;
+    padding: 0 0.5rem;
+    font-weight: 400;
+}
+
+.UserNameText {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.RoleText {
+    color: #333;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.MessageText {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,31 @@
+.RequiresFollowUp {
+    position: relative;
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.RequiresFollowUpInput {
+    z-index: 1;
+    visibility: hidden;
+    background: none;
+    border: none;
+    height: calc(3rem - 4px);
+    width: 2.5rem;
+}
+
+.RequiresFollowUpText {
+    width: calc(100% - 3rem);
+    height: calc(3rem - 4px);
+    padding: 1rem;
+    background-color: white;
+    display: block;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    /* TODO: Consolidate form colors */
+    color: var(--color-DarkGrey);
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}

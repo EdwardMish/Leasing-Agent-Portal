@@ -1,0 +1,137 @@
+﻿.SubmitSalesMainHeading {
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+.SubmitSalesSecondaryHeading {
+    margin: 2rem 0 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.SubmitForm {
+    margin-top: 0.25rem;
+}
+
+.SubmitForm label {
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.SubmitMonthAndYear,
+.ResubmitMonthAndYear {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.ResubmitMonthAndYear {
+    margin-bottom: 1rem;
+}
+
+.Error {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    color: hsl(0, 80%, 22%);
+    border-color: hsl(0, 80%, 22%);
+    background-color: hsl(0, 80%, 92%);
+  }
+/* Next Button */
+.NextButton {
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0071ce;
+    border: 2px solid #0071ce;
+    border-radius: 0.25rem;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+    transition: all .15s ease;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.NextButton svg {
+    stroke: white;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 0.25rem;
+}
+
+.NextButton:hover {
+    background: white;
+    color: #0071ce;
+    transition: all .15s ease;
+}
+
+.NextButton:hover svg {
+    stroke: #0071ce;
+}
+
+.ErrorMessageWrapper {
+    margin: 1rem 1rem 0;
+}
+
+.CommentsWrapper {
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+}
+
+.CommentsWrapper h3 {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+}
+
+.CommentRow {
+    border-bottom: 1px solid #ced4da;
+    padding: 0 0 0.5rem;
+    margin: 0 0 0.5rem;
+}
+
+.CommentRow p {
+    margin: 0 0 0.25rem;
+}
+
+.CommentRow p:first-of-type {
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    color: rgb(140, 140, 140);
+}
+
+.PreviousSubText {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin: 0 0 0.25rem;
+    color: rgb(140, 140, 140);
+}
+
+.PreviousAmount {
+    font-size: 1.5rem;
+}
+
+.LegalText {
+    font-size: .75rem;
+    color: #ACACAC;
+}
+
+.Submitting {
+    line-height: 1rem;
+    margin: .5rem;
+}
+
+.SubmittingSpinner > div {
+    display: inline;
+}

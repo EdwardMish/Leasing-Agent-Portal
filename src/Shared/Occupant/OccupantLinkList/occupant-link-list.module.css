@@ -1,0 +1,31 @@
+﻿.OccupantLink {
+    composes: PageWrapperLink from '../../Styles/page.module.css';
+}
+
+.OccupantCard,
+.OccupantLink {
+    display: block;
+    width: 100%;
+    margin: 0 0 0.75rem;
+    padding: 0.75rem;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 4px;
+    transition: all 0.15s ease;
+}
+
+.OccupantLink:hover {
+    margin-left: 0.5rem;
+    transition: all 0.15s ease;
+}
+
+.OccupantCard h3,
+.OccupantLink h3 {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 750px) {
+    .OccupantCard {
+        width: calc(50% - 0.5rem);
+    }
+}

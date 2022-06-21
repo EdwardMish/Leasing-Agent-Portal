@@ -1,0 +1,49 @@
+﻿@import '../Styles/colors.css';
+
+.OccupantUserList {
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+.OccupantUserList>table {
+    width: 100%;
+}
+
+.OccupantUserList>table>thead>tr {
+    background-color: rgb(248, 248, 248);
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.OccupantUserList>table>thead>tr>th {
+    text-align: left;
+    padding: .5rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.OccupantUserList>table>tbody>tr>td {
+    text-align: left;
+    padding: .5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.OccupantUserList>table>tbody>tr>td span {
+    display: block;
+    margin: 0;
+}
+
+.UserEnabled a,
+.UserDisabled a {
+    color: var(--color-BrandBlue);
+}
+
+.UserEnabled {
+    font-weight: bold;
+}
+
+.UserDisabled {
+    text-decoration: line-through;
+}

@@ -1,0 +1,13 @@
+.RequiredPageWrapper {
+    width: 100%;
+    min-height: 10rem;
+    margin: 1rem 0;
+}
+
+.IconSpacing {
+    margin: 1rem 0;
+}
+
+.NewsList {
+    margin: 1rem 0 0;
+}

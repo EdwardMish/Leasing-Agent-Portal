@@ -1,0 +1,32 @@
+﻿.PageWrapper {
+    max-width: 56rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid rgb(235,235,235);
+}
+
+.PageWrapperBreadcrumbs {
+    max-width: 56rem;
+}
+
+.PageWrapper h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0 0 1rem;
+}
+
+.PageWrapperLink {
+    text-decoration: none;
+    color: #0071ce;
+}
+
+@media screen and (max-width: 1000px) {
+    .PageWrapper {
+        margin: 0 auto;
+    }
+
+    .PageWrapperBreadcrumbs {
+        margin: 0 auto;
+    }
+}

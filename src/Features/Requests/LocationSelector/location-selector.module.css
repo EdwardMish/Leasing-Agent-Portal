@@ -1,0 +1,30 @@
+﻿.LocationSelector {
+    margin: 0 0 2rem;
+}
+
+.SearchInput {
+    margin-bottom: 1rem;
+}
+
+.SingleProperty {
+    margin: 0 0 2rem;
+}
+
+.CurrentPropertySelection,
+.CurrentOccupantSelection {
+    padding: 0.5rem 0.875rem 0.6rem;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 0 0 4px 4px;
+    margin: calc(-1rem - 1px) 0 1rem;
+}
+
+.CurrentPropertySelection p,
+.CurrentOccupantSelection p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+.HiddenInput {
+    display: none;
+}

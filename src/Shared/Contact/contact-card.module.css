@@ -1,0 +1,39 @@
+﻿.ContactCard {
+    margin: 0;
+    padding: 0;
+}
+
+    .ContactCard p {
+        margin: 0 0 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1;
+    }
+
+    .ContactCard a {
+        color: #0071ce;
+        text-decoration: none;
+    }
+
+    .ContactCard p:last-of-type {
+        margin: 0;
+    }
+
+.ContactCardName {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.ContactCardTitle {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: rgb(110, 110, 110);
+    letter-spacing: 0.035rem;
+}
+
+.ContactCardEmail {
+    font-size: 0.8rem;
+}
+
+.ContactCardPhone {
+    font-size: 0.8rem;
+}

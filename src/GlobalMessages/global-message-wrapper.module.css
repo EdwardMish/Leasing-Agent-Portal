@@ -1,0 +1,6 @@
+﻿.GlobalMessageWrapper {
+    position: fixed;
+    top: 5rem;
+    width: 100%;
+    z-index: 100;
+}

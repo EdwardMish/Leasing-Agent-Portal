@@ -1,0 +1,95 @@
+﻿.Header {
+    height: calc(4rem + 5px);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid #FF9E18;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.NotificationsWrapper {
+    position: fixed;
+    top: calc(4rem + 5px);
+    width: 100%;
+    left: 0;
+    z-index: 30;
+}
+
+.MenuIcon {
+    width: 2rem;
+    height: 2rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .MenuIcon svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        stroke: #0071ce;
+    }
+
+.Logo a {
+    display: block;
+    height: 2rem;
+}
+
+.Logo svg {
+    height: 2rem;
+    width: auto;
+    fill: #0071ce;
+}
+
+.HeaderLinks {
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderLinks > div {
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.ConversationIcon span {
+    background: #FF9E18;
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    font-size: .6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+
+.ConversationIcon svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    stroke: #0071ce;
+    stroke-width: 0.09rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .MenuIcon {
+        display: flex;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "injectChanges": false,
+    "files": ["./**/*.{html,htm,css,js}"],
+    "https": false,
+    "watchOptions": { "ignored": "node_modules" },
+    "server": {
+        "baseDir": "dist",
+        "middleware": []
+    },
+    "ui": {
+        "port": 3000
+    }
+}

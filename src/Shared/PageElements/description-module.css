@@ -1,0 +1,14 @@
+.Description {
+    color: rgb(25, 25, 25);
+    width: 100%;
+    max-width: 40rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.NoPadding {
+    padding-bottom: 0;
+}
+

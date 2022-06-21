@@ -1,0 +1,9 @@
+.PhotoRow {
+    width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .PhotoRow {
+        flex-direction: column !important;
+    }
+}

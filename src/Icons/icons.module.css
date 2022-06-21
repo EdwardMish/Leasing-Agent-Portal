@@ -1,0 +1,38 @@
+﻿.Icon {
+    stroke: currentColor;
+    min-width: 1rem;
+}
+
+/* Toggles */
+.ToggledOnBubble {
+    stroke-width: 1px;
+    stroke: #0071ce;
+    fill: #0071ce;
+}
+
+.ToggledOnSlider {
+    stroke: white;
+    fill: white;
+    stroke-width: 4px;
+}
+
+.ToggledOffBubble {
+    stroke: rgb(150, 150, 150);
+    stroke-width: 1px;
+}
+
+.ToggledOffSlider {
+    stroke: rgb(150, 150, 150);
+    fill: rgb(150, 150, 150);
+    stroke-width: 4px;
+}
+
+.CircleWithDotCircle {
+    fill: none !important;
+    stroke: currentColor !important;
+}
+
+.CircleWithDotDot {
+    fill: currentColor !important;
+    stroke: none !important;
+}

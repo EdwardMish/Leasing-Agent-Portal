@@ -1,0 +1,10 @@
+﻿.UserRolesList {
+    margin: 0.5rem 0;
+    padding: 0 2rem 0 0;
+    list-style-type: none;
+}
+
+.UserRolesList li {
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+}

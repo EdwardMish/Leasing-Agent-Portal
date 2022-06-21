@@ -1,0 +1,9 @@
+node_modules
+.env
+.env.development
+.env.local
+yarn.lock
+
+# BUILD OUTPUT
+dist
+build/build-logs

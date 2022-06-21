@@ -1,0 +1,75 @@
+﻿.SelectList {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.SelectListCurrent {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.SelectListSubText {
+    margin: 0 0 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(150, 150, 150);
+    display: block;
+}
+
+.SelectListOptions {
+    display: block;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: -1px;
+}
+
+.SelectListOptions p {
+    margin: 0;
+    padding: 1rem 0.5rem;
+    line-height: 1;
+    display: block;
+}
+
+.SelectListOptions p:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.ActiveItem {
+    background-color: rgb(220, 220, 220);
+}
+
+.SelectListIcon {
+    margin: 0 0.5rem 0 0;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border: 1px solid #0071CE;
+    border-radius: 4px;
+}
+
+.SelectListIcon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: white;
+}
+
+.ActiveIcon {
+    background-color: #0071CE;
+}
+
+.InactiveIcon {
+    /* background-color: rgb(220, 220, 220); */
+}

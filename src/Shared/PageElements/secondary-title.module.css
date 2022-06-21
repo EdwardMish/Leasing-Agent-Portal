@@ -1,0 +1,53 @@
+﻿.SecondaryTitle,
+.SecondaryTitleWithAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.SecondaryTitleWithMargin {
+    margin: 0 0 1rem;
+}
+
+.SecondaryTitleNoMargin {
+    margin: 0;
+}
+
+.SecondaryTitleWithAction {
+    cursor: pointer;
+}
+/*
+    Tab titles have 3px border
+    Compensation in padding until componetize section
+*/
+.SecondaryTitle h2,
+.SecondaryTitleWithAction h2 {
+    margin: 0;
+    padding: 0.5rem 0 calc(0.5rem + 3px);
+    font-size: 1rem;
+}
+
+.SecondaryTitle a,
+.SecondaryAction {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 2rem;
+    cursor: pointer;
+    color: #0071ce;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.SecondaryTitle svg {
+    stroke: currentColor;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.25rem;
+}
+
+.NoBorderBottom {
+    border-bottom: none;
+}
+

@@ -1,0 +1,13 @@
+﻿.Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Phone {
+    width: calc(100% - 6rem);
+}
+
+.Extension {
+    width: 5rem;
+}

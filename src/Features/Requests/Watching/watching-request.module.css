@@ -1,0 +1,94 @@
+﻿.WatchingRequest {
+    position: relative;
+}
+
+.WatchingRequestIcon {
+    min-width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.WatchingRequestIcon:hover {
+    background: rgb(245, 245, 245);
+    border-color: rgb(235, 235, 235);
+}
+
+.WatchingRequestIcon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.WatchingRequestMenu {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    width: 20rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 4px;
+    font-size: 0.875rem;
+    box-shadow: 0px 6px 8px -5px rgba(25, 25, 25, 0.85);
+}
+
+.WatchingRequestToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0.75rem;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    cursor: pointer;
+}
+
+.WatchingRequestToggle p {
+    display: block;
+    margin: 0;
+}
+
+.WatchingRequestToggle p:nth-of-type(1) {
+    width: calc(100% - 6.25rem);
+    font-weight: 700;
+}
+
+.WatchingRequestToggle p:nth-of-type(2) {
+    width: 6.25rem;
+    color: #0071ce;
+    text-align: right;
+}
+
+.Watchers {
+    padding: 0.75rem;
+}
+
+.Watchers > p {
+    font-weight: 700;
+    margin: 0;
+}
+
+.WatcherRow {
+    margin: 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.WatcherRow:nth-of-type(1) {
+    border-top: 1px solid rgb(205, 205, 205);
+    margin: 0.5rem 0 0;
+}
+
+.WatcherRow p {
+    font-size: 0.8rem;
+}
+
+.WatcherRow p:nth-of-type(2) {
+    margin: 0.275rem 0 2px;
+    color: rgb(70, 81, 100);
+}

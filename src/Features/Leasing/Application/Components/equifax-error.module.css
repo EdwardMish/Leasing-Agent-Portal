@@ -1,0 +1,14 @@
+.EquifaxError {
+    margin: 2rem;
+    background-color: var(--color-WarningRedSecondary);
+    padding: 1rem;
+}
+
+.EquifaxError p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.EquifaxError .ContactInformation span {
+    margin-left: 1rem;
+}

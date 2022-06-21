@@ -1,0 +1,48 @@
+﻿.SearchIcon {
+    border: none;
+    background: none;
+    width: 3rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SearchIcon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: #0071CE;
+}
+
+.AvailableUserRow {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: 1px solid rgb(205, 205, 205);
+    background: rgb(245, 245, 245);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.AvailableUserRow:hover {
+    margin-left: 0.5rem;
+    transition: all 0.15s ease;
+}
+
+.AvailableUserRow p {
+    font-size: 0.8rem;
+}
+
+.AvailableUserRow p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+.AvailableUserRow p:nth-of-type(2) {
+    margin: 0.2rem 0 0;
+    color: rgb(70, 81, 100)
+}
+
+.ConfirmationPanel p {
+    line-height: 1.5rem;
+}

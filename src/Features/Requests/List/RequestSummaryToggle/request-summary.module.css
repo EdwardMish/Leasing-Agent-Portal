@@ -1,0 +1,28 @@
+.PrependRow {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Prepend {
+    display: none;
+    margin: 0;
+    color: rgb(0, 113, 206);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+}
+
+@media screen and (max-width: 525px) {
+    .PrependRow {
+        margin: 1.25rem 0 0;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .Prepend {
+        display: block;
+    }
+}

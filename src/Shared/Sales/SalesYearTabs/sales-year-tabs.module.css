@@ -1,0 +1,58 @@
+﻿.SelectYear {
+    position: relative;
+    z-index: 0;
+    height: 1.75rem;
+    margin: 1.75rem 0 1rem;
+    cursor: pointer;
+}
+
+.SelectYear h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0071CE;
+    line-height: 1.75rem;
+}
+
+.SelectYear ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    background: white;
+    width: 100%;
+    padding: 0.3rem 0.9rem;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.SelectYear ul li {
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+    transition: all 0.15s ease;
+}
+
+.SelectYear ul li:hover {
+    color: #0071CE;
+    padding-left: 0.5rem;
+    transition: all 0.15s ease;
+}
+
+.SelectYearTabs {
+    display: flex;
+    margin: 2px 0 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    list-style-type: none;
+}
+
+.SelectYearTabs li {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.SelectYearTabs li.ActiveTab {
+    color: #0071CE;
+    border-bottom: 3px solid #0071CE;
+}

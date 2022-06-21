@@ -1,0 +1,48 @@
+.SummaryWrapper {
+    padding: 1rem 0.25rem;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.SummaryPanel {
+    width: 40%;
+    padding: 1rem;
+}
+
+.Description {
+    width: 60%;
+    padding: 0 1rem;
+    line-height: 1.5;
+    max-height: 15rem;
+    min-height: 8rem;
+    overflow: hidden;
+    position: relative;
+    font-size: 0.875rem;
+}
+
+.Description::after {
+    content: '';
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    height: 5rem;
+    position: absolute;
+    top: calc(100% - 5rem);
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 525px) {
+    .SummaryWrapper {
+        padding: 0;
+    }
+
+    .Summary {
+        flex-direction: column !important;
+        padding: 0;
+    }
+
+    .SummaryPanel, 
+    .Description {
+        width: 100%;
+    }
+}

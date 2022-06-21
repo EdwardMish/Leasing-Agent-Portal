@@ -1,0 +1,17 @@
+﻿.Wrapper {
+    max-width: 50rem;
+    height: 50vh;
+    min-height: 35rem;
+    padding: 1.5rem;
+}
+
+.Form {
+    padding-bottom: 1.5rem;
+}
+
+.Wrapper li,
+.Wrapper a,
+.Wrapper p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}

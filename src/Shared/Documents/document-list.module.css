@@ -1,0 +1,45 @@
+﻿.Document {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+}
+
+.Document:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.Document a {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #0071CE;
+    font-weight: 700;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.Document a svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0.5rem 0 0;
+    stroke: #0071ce;
+}
+
+.RemoveItem {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.RemoveItem svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    stroke: hsl(0,80%,22%);
+}

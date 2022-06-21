@@ -1,0 +1,107 @@
+﻿.UserDetails h2 {
+    font-size: 1.05rem;
+}
+
+.UserDetails svg {
+    color: #0071CE;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.UserDetailsCore,
+.EditUserCore {
+    margin: 1rem 0;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 4px;
+    position: relative;
+}
+
+.UserDetailsCore {
+    padding: 0.5rem 1rem 0.25rem;
+}
+
+.EditUserCore {
+    padding: 1rem;
+}
+
+.EditUserCore > input {
+    margin-bottom: 1rem;
+}
+
+.EditUserCoreClose {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.UserDetailsName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserDetailsEmail {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserDetailsEmail p {
+    font-size: 0.875rem;
+    margin: 0 0 0.75rem;
+}
+
+.SplitView {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SplitView > div {
+    margin-bottom: 1rem;
+}
+
+.UserDetailsButton {
+    display: block;
+    margin: 1rem 0;
+}
+
+.UserDetailsEmailSent {
+    margin: 1rem 0;
+    padding: .5rem 2rem;
+    transition: .3s;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 750px) {
+    .UserDetailsEmail {
+        flex-direction: row;
+    }
+
+    .SplitView {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .SplitView > div:first-of-type {
+        flex-grow: 0;
+        margin-right: 1.5rem;
+        min-width: 10rem;
+    }
+
+    .SplitView > div:last-of-type {
+        flex-grow: 1;
+    }
+}
+
+.RoleList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

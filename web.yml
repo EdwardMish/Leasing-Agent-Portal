@@ -1,0 +1,76 @@
+trigger:
+  batch: true
+  branches:
+    include:
+    - main
+    - development
+    - release/*
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  DeployableBuild: $[or(or(startsWith(variables['Build.SourceBranch'], 'refs/heads/main'), startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')), startsWith(variables['Build.SourceBranch'], 'refs/heads/development'))]
+  ${{ if startsWith(variables['Build.SourceBranch'], 'refs/heads/release/') }}:
+    Environment: 'prod'
+  ${{ if not(startsWith(variables['Build.SourceBranch'], 'refs/heads/release')) }}:
+    Environment: 'qa'
+
+jobs:
+  - job: FRONTENDBUILD
+    displayName: 'Build Frontend Application'
+    steps:
+      - script: | 
+          echo 'DeployableBuild is $(DeployableBuild)'
+          echo 'SourceFolder is $(Build.SourcesDirectory)'
+          echo 'Environment is $(Environment)'
+    
+      - task: NodeTool@0
+        displayName: 'Install Node'
+        condition: succeeded()
+        inputs:
+          versionSpec: '=14.17.3'
+      
+      - task: Npm@1
+        displayName: 'Install Node Dependencies'
+        condition: succeeded()
+        inputs:
+          command: 'install'
+          workingDir: '$(Build.SourcesDirectory)'
+          verbose: true
+      
+      - task: Npm@1
+        displayName: 'Run Javascript Tests'
+        condition: succeeded()
+        inputs:
+          command: 'custom'
+          workingDir: '$(Build.SourcesDirectory)'
+          customCommand: 'run test'
+          verbose: true
+
+      - task: Npm@1
+        displayName: 'Build React Components'
+        condition: succeeded()
+        inputs:
+          command: 'custom'
+          workingDir: '$(Build.SourcesDirectory)'
+          customCommand: 'run build:$(Environment)'
+          verbose: true
+      
+      - task: ArchiveFiles@2
+        displayName: 'Archive Dist Folder'
+        condition: and(succeeded(), eq(variables.DeployableBuild, 'True'))
+        inputs:
+          rootFolderOrFile: '$(Build.SourcesDirectory)\dist'
+          includeRootFolder: false
+          archiveFile: '$(Build.StagingDirectory)\FRONTEND\Frontend.zip' 
+          archiveType: 'zip'
+          replaceExistingArchive: true
+          verbose: true
+      
+      - task: PublishPipelineArtifact@1
+        displayName: 'Publish Frontend Build'
+        condition: and(succeeded(), eq(variables.DeployableBuild, 'True'))
+        inputs:
+          targetPath: '$(Build.StagingDirectory)\FRONTEND'
+          artifactName: FRONTEND

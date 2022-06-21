@@ -1,0 +1,24 @@
+﻿.IconWithText {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.IconWithText p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.075rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.IconOnLeft {
+    margin: 0 0 0 0.4rem;
+}
+
+.IconOnRight {
+    margin: 0 0.4rem 0px 0;
+}

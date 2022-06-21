@@ -1,0 +1,54 @@
+@import '../Styles/colors.css';
+
+.ApplicationPageWrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45rem;
+    padding: 2.5rem 1.25rem;
+    background: white;
+}
+
+.ApplicationPageWrapper h1 {
+    font-weight: 400;
+    margin: 0 0 0.75rem;
+}
+
+.ApplicationPageWrapper h2 {
+    margin: 0 0 0.75rem;
+}
+
+.ApplicationPageWrapper a {
+    color: hsl(206, 100%, 40%);
+}
+
+.ApplicationPageWrapper .WelcomeParagraphBlock {
+    margin: 0 0 1.25rem;
+}
+
+.ApplicationPageWrapper .WelcomeParagraphBlock li,
+.ApplicationPageWrapper .WelcomeParagraphBlock a,
+.ApplicationPageWrapper .WelcomeParagraphBlock p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.ApplicationPageWrapper .WelcomeParagraphBlock p {
+    margin: 0 0 0.75rem;
+}
+
+.ApplicationPageWrapper .AddressBlock {
+    margin-bottom: 1.25rem;
+}
+
+.ApplicationPageWrapper .AddressBlock p {
+    line-height: 1.7;
+}
+
+.ApplicationPageWrapper .AddressBlock input {
+    margin-bottom: 0.5rem;
+}
+
+.ApplicationPageWrapper .Link {
+    cursor: pointer;
+    color: var(--color-BrandBlue);
+}

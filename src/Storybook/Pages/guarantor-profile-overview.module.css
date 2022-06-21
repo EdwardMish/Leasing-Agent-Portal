@@ -1,0 +1,48 @@
+.PageWrapper {
+    max-width: 45rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.PageStyles {
+    font-family: 'Lato', sans-serif;
+}
+
+.flexWrapper {
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.halfSection {
+    display: flex;
+}
+
+.SubHeaderKeyValue {
+    padding: 0.5rem 0 0;
+    width: 12rem;
+}
+
+.uploadClick {
+    color: #0071ce;
+    cursor: pointer;
+}
+
+.QuestionWrapper {
+    width: 90%;
+}
+
+.LongText {
+    width: 90%;
+}
+
+@media screen and (max-width: 500px) {
+    .SubHeaderKeyValue {
+        padding: 1rem 0 0 0;
+    }
+    .DesktopTabHeader {
+        display: none;
+    }
+}
+

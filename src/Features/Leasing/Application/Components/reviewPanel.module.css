@@ -1,0 +1,16 @@
+.iconButton {
+    cursor: pointer;
+}
+.IconWrapper {
+    padding: 0.25rem;
+}
+
+.TasksListItem {
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 0 0 0.5rem;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 0.25rem;
+    transition: all 0.15s ease;
+}
